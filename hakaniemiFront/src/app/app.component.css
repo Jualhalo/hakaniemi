@@ -1,0 +1,13 @@
+.container {
+    height: 100%;
+    width: 100%;  
+}
+.content {
+    height: 90%;
+    width: 50%;
+    margin: auto;
+    margin-top: 3em;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
