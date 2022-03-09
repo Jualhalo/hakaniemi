@@ -1,6 +1,7 @@
 # Hakaniemi
-This is an app that displays Hakaniemi market hall's monthly electricity spending from the year 2019.
+This app that displays Hakaniemi market hall's monthly electricity spending from the year 2019.
 The data is fetched from an external API to the Express server, from where it's requested and displayed by an Angular client app.
+The fetched data from the external API is also saved in a .csv file that can be found in the server directory.
 
 The frontend was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 The server was generated with Express version 4.17.3.
