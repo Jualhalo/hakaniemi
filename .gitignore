@@ -32,7 +32,7 @@ hakaniemiFront/vscode/*
 .history/*
 
 # misc
-hakaniemiFront/angular/cache
+hakaniemiFront/.angular/cache
 /.sass-cache
 /connect.lock
 /coverage
