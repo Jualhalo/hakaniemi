@@ -1,11 +1,11 @@
 import express from 'express';
 import fetch from 'node-fetch';
-import cors from 'cors';
 
 const app = express();
 const port = 3000;
 
 //corsOptions added to prevent cors errors when fetching data to the frontend from server
+const cors = require('cors');
 const corsOptions = {
     origin: '*',
     optionsSuccessStatus: 200
