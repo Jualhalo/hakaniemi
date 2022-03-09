@@ -101,7 +101,8 @@ const convertDataToMonthlyFormat = (data: any) => {
                 currentYear++;
                 currentMonth = 0;
             }
-            monthlyValue = 0;
+            //set monthlyValue to the value of current element (first day of month)
+            monthlyValue = data[i]['value'];
         }
     }
     //After the loop is done, push the data from the final month into the array as well
