@@ -8,7 +8,8 @@
 /bazel-out
 
 # dependencies
-/node_modules
+hakaniemiFront/node_modules
+hakaniemiServer/node_modules
 
 # profiling files
 chrome-profiler-events*.json
@@ -23,7 +24,7 @@ chrome-profiler-events*.json
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
+hakaniemiFront/vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -31,7 +32,7 @@ chrome-profiler-events*.json
 .history/*
 
 # misc
-/.angular/cache
+hakaniemiFront/angular/cache
 /.sass-cache
 /connect.lock
 /coverage
