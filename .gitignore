@@ -8,8 +8,8 @@
 /bazel-out
 
 # dependencies
-/node_modules
-/server/node_modules
+hakaniemiFront/node_modules
+hakaniemiServer/node_modules
 
 # profiling files
 chrome-profiler-events*.json
