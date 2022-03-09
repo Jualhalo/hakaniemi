@@ -21,6 +21,7 @@ Run `ng build` in the frontend directory to build the project. The build artifac
 
 ## Running unit tests
 
+Run `npm test` in the server directory to run all server unit tests.
 
 ## Further help
 
