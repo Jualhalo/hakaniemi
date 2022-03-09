@@ -7,7 +7,12 @@
     width: 50%;
     margin: auto;
     margin-top: 3em;
-    padding-left: 5%;
-    padding-right: 5%;
     text-align: center;
+    padding-bottom: 5%;
+    background-color:#f1f1f1;
 }
+@media all and (max-width: 800px) {
+    .content {
+        width: 75%;
+    }
+  }
